@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PieActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sentiment Towards BJP"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sentiment Towards Congress"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart1"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sentiment Towards MNS"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart2"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sentiment Towards NCP"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart3"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sentiment Towards ShivSena"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart4"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
